@@ -1,0 +1,22 @@
+<div class="container">
+  <div>请输入验证码</div>
+  <div>
+    <input type="text"
+           maxlength=1
+           tabindex="0"
+           #a1
+           (input)="a2.focus()">
+    <input type="text"
+           maxlength=1
+           #a2
+           (input)="a3.focus()">
+    <input type="text"
+           maxlength=1
+           #a3
+           (input)="a4.focus()">
+    <input type="text"
+           maxlength=1
+           #a4
+           (input)="submit()">
+  </div>
+</div>
